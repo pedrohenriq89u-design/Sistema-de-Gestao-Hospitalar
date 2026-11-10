@@ -111,3 +111,43 @@ Foram utilizadas restrições e validações para manter a consistência das inf
 - Restrições `NOT NULL` para exigir informações obrigatórias.
 - `ON DELETE RESTRICT` para proteger registros relacionados.
 - Validações para evitar conflitos de horários e ocupação
+  
+  9. Como executar o projeto
+
+Abrir o MySQL Workbench.
+
+Conectar-se ao servidor MySQL.
+
+Executar o script DDL para criar o banco e as tabelas.
+
+Executar o script DML para inserir os dados.
+
+Executar o script DQL para realizar as 15 consultas.
+
+Atualizar a seção SCHEMAS para visualizar o banco hospital_db.
+
+Conferir os resultados das consultas.
+
+Observação: execute os scripts na ordem DDL, DML e DQL.
+
+10. Diagrama Entidade-Relacionamento
+
+O projeto contempla o Modelo Entidade-Relacionamento (MER/DER), apresentando as tabelas, seus atributos, chaves primárias, chaves estrangeiras e cardinalidades.
+
+O diagrama está disponível no repositório.
+
+11. Evidências
+
+O projeto possui capturas de tela das consultas SQL executadas no MySQL Workbench, demonstrando os comandos utilizados e seus respectivos resultados.
+
+12. Conclusão
+
+O desenvolvimento deste projeto permitiu aplicar os conceitos de modelagem e implementação de bancos de dados relacionais, utilizando SQL para criação, manipulação e consulta de informações.
+
+A estrutura desenvolvida busca atender às necessidades do Hospital Geral Vida & Saúde, garantindo a organização dos dados, a integridade referencial e a disponibilidade de informações estratégicas para auxiliar na administração hospitalar.
+
+13. Autor
+
+Pedro Henrique Soares Silva
+
+Projeto acadêmico individual — Sistema de Gestão Hospitalar Vida & Saúde.
